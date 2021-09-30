@@ -1,9 +1,12 @@
 import React from "react";
+import { OuterWrapper } from "./UsuarioStyled";
 
 const Usuario = () => {
 
     return(
-        <h1>Usuario</h1>
+        <OuterWrapper>
+            
+        </OuterWrapper>
     );
 
 }
