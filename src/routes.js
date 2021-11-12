@@ -6,6 +6,7 @@ import Filme from "./containers/filmes/Filme";
 import Cliente from "./containers/clientes/Cliente";
 import Menu from "./components/menu/Menu";
 import Usuario from "./components/usuario/Usuario";
+import Locacoes from "./containers/locacoes/Locacao";
 
 const Routes = () => {
     return(
@@ -16,7 +17,8 @@ const Routes = () => {
             </LeftWrapper>
             <Switch>
                 <Route path="/clients" component={Cliente} exact/>
-                <Route path="/movies" component={Filme} exact/>                
+                <Route path="/movies" component={Filme} exact/>
+                <Route path="/rentals" component={Locacoes} exact/>
             </Switch>
         </OuterWrapper>
     );
