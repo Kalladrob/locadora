@@ -1,11 +1,12 @@
 import React from "react";
-import { OuterWrapper } from "./UsuarioStyled";
+import { OuterWrapper,
+        Icon } from "./UsuarioStyled";
 
 const Usuario = () => {
 
     return(
         <OuterWrapper>
-            
+            <Icon />
         </OuterWrapper>
     );
 

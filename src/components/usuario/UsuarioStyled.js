@@ -9,7 +9,12 @@ export const OuterWrapper = styled.div`
     border-radius: 15px;
 `
 
-export const iconDiv = styled.div`
+export const Icon = styled.div`
     display: flex;
-    
+    height: 43px;
+    width: 44px;
+    left: 15px;
+    top: 15px;
+    border-radius: 11px;
+    background-image: '../../imgs/Icone.png';
 `
