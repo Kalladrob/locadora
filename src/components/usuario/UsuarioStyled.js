@@ -8,3 +8,8 @@ export const OuterWrapper = styled.div`
     height: 72px;
     border-radius: 15px;
 `
+
+export const iconDiv = styled.div`
+    display: flex;
+    
+`
